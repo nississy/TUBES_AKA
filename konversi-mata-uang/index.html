@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Konversi IDR ke USD</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<h2>Konversi IDR ke USD</h2>
+
+<div class="box">
+    <form method="POST">
+        <label>Masukkan nominal IDR</label>
+        <input name="idr" placeholder="contoh: 10000 atau 16.615,00">
+
+        <label>Masukkan jumlah lembar IDR</label>
+        <input name="n" placeholder="contoh: 5">
+
+        <button type="submit">Konversi</button>
+    </form>
+</div>
+
+{{if .Show}}
+<div class="hasil">
+    <h3>Hasil Iteratif : </h3>
+    {{printf "%.2f" .Iteratif}} USD
+    <br><br>
+
+    <h3>Hasil Rekursif : </h3>
+    {{printf "%.2f" .Rekursif}} USD
+</div>
+{{end}}
+
+</body>
+</html>
