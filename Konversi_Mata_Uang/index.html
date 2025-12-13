@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Konversi IDR ke USD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Konversi IDR ke USD</h1>
+
+    <div class="card">
+        <label>Masukkan nominal IDR</label>
+        <input type="number" id="idr" placeholder="contoh: 10000">
+
+        <label>Masukkan jumlah lembar IDR</label>
+        <input type="number" id="n" placeholder="contoh: 5">
+
+        <button onclick="hitung()">Konversi</button>
+    </div>
+
+    <div class="card hasil">
+        <p><strong>Hasil Iteratif :</strong></p>
+        <p id="iteratif">-</p>
+
+        <p><strong>Hasil Rekursif :</strong></p>
+        <p id="rekursif">-</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+body {
+    background-color: #fbf6dc;
+    margin: 0;
+    padding: 40px 0;
+    text-align: center;
+}
+
+h1 {
+    color: #b38b4d;
+    margin-bottom: 30px;
+}
+
+.card {
+    background: #ffffff;
+    width: 400px;
+    margin: 0 auto 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.card label {
+    display: block;
+    margin-bottom: 8px;
+    color: #a07a3f;
+    font-weight: bold;
+}
+
+.card input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 18px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #e1c07d;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cfa85e;
+}
+
+.hasil p {
+    margin: 10px 0;
+    color: #a07a3f;
+}
+
+.hasil p strong {
+    font-size: 16px;
+}
+
+#iteratif, #rekursif {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
