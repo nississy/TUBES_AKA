@@ -10,7 +10,7 @@ Proyek ini juga menilai bagaimana kedua pendekatan melakukan operasi perulangan 
 - Konversi menggunakan metode: Iteratif & Rekursif
 
 ## Tools
-- **Go (Golang)** - backend & algoritma
+- **JavaScript** - backend & algoritma
 - **HTML Template** - tampilan hasil + web
 - **CSS** - styling halaman
 
@@ -21,15 +21,11 @@ git clone https://github.com/nississy/TUBES_AKA.git
  ```
 2. Pergi ke project directory
 ```bash
-cd konversi-mata-uang
+cd Konversi_Mata_Uang
 ```
-3. Jalankan server
+3. Jalankan
 ```bash
-go run main.go
-```
-4. Buka di browser
-```bash
-http://localhost:8080
+index.html
 ```
 
 ## Authors
