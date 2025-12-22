@@ -34,4 +34,13 @@ function hitung() {
 
     document.getElementById("iteratif").innerText = konversiIteratif(idr, n).toFixed(2) + " USD";
     document.getElementById("rekursif").innerText = konversiRekursif(idr, n).toFixed(2) + " USD";
+
+     // Estimasi running time
+    const rtIteratif = n;                 // O(n)
+    const rtRekursif = n * Math.log2(n);  // O(n log n)
+
+    document.getElementById("rt-iteratif").innerText = "Iteratif O(n) ≈ " + rtIteratif * 0.00001 + " s";
+
+    document.getElementById("rt-rekursif").innerText = "Rekursif O(n log n) ≈ " + rtRekursif.toFixed(2) * 0.00001 + " s";
 }
+
